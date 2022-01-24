@@ -9,7 +9,7 @@ public class Controlador {
 	@RequestMapping
 	public String muestraPaginaWeb() {
 		
-		return "paginaEjemplo";
+		return "paginaInicial";
 	}
 
 }
