@@ -22,6 +22,21 @@
 		
 		<br><br><br>
 		
+		Edad <form:input path="edad"/>
+		<form:errors path="edad" style="color:red"/>
+		
+		<br><br><br>
+		
+		E-mail <form:input path="email"/>
+		<form:errors path="email" style="color:red"/>
+		
+		<br><br><br>
+		
+		C. postal <form:input path="codigoPostal"/>
+		<form:errors path="codigoPostal" style="color:red"/>
+		
+		<br><br><br>
+		
 		Optativas:
 		<form:select path="optativas">
 		<form:option value="Java" label="Java"></form:option>
