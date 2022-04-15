@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+	margin: 0px;
+	/*padding: 0px;*/
+}
+
+body{
+	
+	/*background-color: lightgray;*/
+	font-family: 'Roboto', sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+#container{
+	/*width: 1100px; 
+	margin: 0px auto;
+	border: 1px solid black;
+	background-color: #e5e5f7;
+	background-image: linear-gradient(to right, #89ff8d, #89ff8d 5px, #e5e5f7 5px, #e5e5f7 );
+	background-size: 10px 100%;*/
+}
+
+header{
+	
+	height: 100px; 
+	/*width: 100%;
+	margin: 0px;*/
+	text-align: center;
+	line-height: 100px;
+	border-bottom: 3px dashed black;
+	background-color: #e5e5f7;
+	background-image:  linear-gradient(#ff00d0 2px, transparent 2px), linear-gradient(90deg, #ff00d0 2px, transparent 2px), linear-gradient(#ff00d0 1px, transparent 1px), linear-gradient(90deg, #ff00d0 1px, #e5e5f7 1px);
+	background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+	background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	
+}
+
+h1{
+	font-size: 40px;
+}
+
+#content{
+	padding-top: 20px;
+	padding-left: 60px;
+	/*width: 100%;
+	margin: 30px;*/
+	min-height: 500px;
+	background-color: #e5e5f7;
+	background-image: linear-gradient(to right, #89ff8d, #89ff8d 5px, #e5e5f7 5px, #e5e5f7 );
+	background-size: 10px 100%;
+}
+
+
+.article{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	
+	/*border-bottom: 1px solid black;*/
+}
+
+.article p{
+	font-size: 20px;
+}
+
+.article h2{
+	padding-bottom: 20px;
+}
+
+footer{
+	background: black;
+	color: white;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}

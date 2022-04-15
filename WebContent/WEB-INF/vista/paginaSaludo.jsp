@@ -4,23 +4,47 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/recursos/estilos/miEstilo.css">
+<title>Confirmación datos</title>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/recursos/estilos/miEstilo3.css">
 
 </head>
-<body>
 
-Hola ${param.nombreAlumno}. Bienvenido a Spring
+	<body>
 
-<p><br>
+		<div id="container">
+	
+			<header>
+			
+				<h1>Bienvenido ${param.nombreAlumno}</h1>
+			
+			</header>
+		
+			<section id="content">
+			
+				<article class="article">
+					<br>
+					<p>Hola <strong>${param.nombreAlumno} (${param.nick})</strong>, bienvenido al desarrollo de software usando Spring, html, css.</p>
+				</article>
+				
+				<article class="article">
+					<h2>Atención!</h2>
+					<p>${datoAdicionado}</p>
+				</article>
+					
+				<br><br><br>	
+								
+				<img alt="foto" src="${pageContext.request.contextPath}/recursos/imgs/Bienvenido.jpg">
+				
+			</section>
+			
+			<footer>
+			
+				Alex Murcia WEB &copy; 2022
+			
+			</footer>
+	
+		</div>
+	
+	</body>
 
-<h2>Atención a todos</h2>
-
-${datoAdicionado}
-
-</p>
-
-<img alt="foto" src="${pageContext.request.contextPath}/recursos/imgs/tarjetaNavidad.jpg">
-
-</body>
 </html>

@@ -28,9 +28,9 @@ public class ControladorSaludo {
 		
 		//String nombre = request.getParameter("nombreAlumno");
 		
-		nombre += " es el mejor alumno";
+		nombre += " lo está!";
 		
-		String mensajeFinal = "¿Quién es el mejor alumno? " + nombre;
+		String mensajeFinal = "¿Quién está en el desarrollo de software? " + nombre;
 		
 		modelo.addAttribute("datoAdicionado", mensajeFinal);
 		
